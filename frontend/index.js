@@ -44,12 +44,7 @@ module.exports = {
   },
   "overrides": [
     {
-      "files": [
-        "**/*.jsx",
-        "**/**/*.jsx",
-        "**/**/**/*.jsx",
-        "**/**/**/**/*.jsx",
-      ],
+      "files": ["**/*.jsx"],
       "rules": {
         "complexity": [
           "error",
