@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['airbnb-base', '../common.js'],
-  parser: 'babel-eslint',
+  parser: "@babel/eslint-parser",
   rules: {
     'jsx-a11y/href-no-hash': 'off',
     'jsx-a11y/anchor-is-valid': [
