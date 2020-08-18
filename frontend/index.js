@@ -42,7 +42,10 @@ module.exports = {
       }
     ],
   },
-  "overrides": [
+  env: {
+    browser: true
+  },
+  overrides: [
     {
       "files": ["**/*.jsx"],
       "rules": {
