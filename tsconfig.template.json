@@ -14,8 +14,7 @@
     "sourceMap": true,
     "outDir": "build",
     "typeRoots": [
-      "./node_modules/@types",
-      "./custom-typings"
+      "./node_modules/@types"
     ]
   },
   "exclude": [
