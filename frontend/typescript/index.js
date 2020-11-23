@@ -12,9 +12,14 @@ module.exports = {
     },
     overrides: [
         {
-            files: ["**/*.{ts,tsx}"],
+            files: ["**/*.{tsx}"],
             rules: {
                 "complexity": ["error", 10],
+            }
+        },
+        {
+            files: ["**/*.{ts,tsx}"],
+            rules: {
                 "@typescript-eslint/explicit-function-return-type": ['error'],
                 "@typescript-eslint/no-explicit-any": ['error'],
             }
