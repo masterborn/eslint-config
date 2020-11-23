@@ -1,6 +1,7 @@
 module.exports = {
     root: true,
     extends: [
+        '../index.js',
         'airbnb-typescript',
     ],
     plugins: ['@typescript-eslint'],
