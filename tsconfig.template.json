@@ -1,0 +1,25 @@
+
+{
+  "compilerOptions": {
+    "lib": [
+      "esnext"
+    ],
+    "module": "esnext",
+    "target": "es5",
+    "strict": true,
+    "importHelpers": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "outDir": "build",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./custom-typings"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
