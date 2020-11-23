@@ -12,7 +12,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ["**/*.{tsx}"],
+            files: ["**/*.tsx"],
             rules: {
                 "complexity": ["error", 10],
             }
