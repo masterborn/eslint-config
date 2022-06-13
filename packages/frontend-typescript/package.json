@@ -15,5 +15,10 @@
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^2.4.0"
+  },
+  "homepage": "https://github.com/masterborn/eslint-config/tree/master/packages/frontend-typescript#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterborn/eslint-config.git"
   }
 }

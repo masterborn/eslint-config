@@ -10,5 +10,10 @@
   "private": false,
   "dependencies": {
     "@masterborn/eslint-config-common": "*"
+  },
+  "homepage": "https://github.com/masterborn/eslint-config/tree/master/packages/backend#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterborn/eslint-config.git"
   }
 }

@@ -16,5 +16,10 @@
   },
   "peerDependencies": {
     "jest": "28.1.1"
+  },
+  "homepage": "https://github.com/masterborn/eslint-config/tree/master/packages/common#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterborn/eslint-config.git"
   }
 }
