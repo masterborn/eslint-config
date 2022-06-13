@@ -4,15 +4,15 @@
   "description": "MasterBorn ESLint common eslint configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release -e semantic-release-monorepo"
   },
   "private": false,
   "dependencies": {
     "@babel/core": "^7.18.2",
     "@babel/eslint-parser": "^7.18.2",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "semantic-release": "semantic-release -e semantic-release-monorepo"
+    "eslint-plugin-import": "^2.26.0"
   },
   "devDependencies": {
     "jest": "28.1.1"
