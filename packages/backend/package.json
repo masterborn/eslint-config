@@ -1,6 +1,6 @@
 {
   "name": "@masterborn/eslint-config-backend",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "MasterBorn ESLint backend configuration",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   },
   "private": false,
   "dependencies": {
-    "@masterborn/eslint-config-common": "^1.0.0"
+    "@masterborn/eslint-config-common": "*"
   }
 }

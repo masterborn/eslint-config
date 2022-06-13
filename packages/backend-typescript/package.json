@@ -1,6 +1,6 @@
 {
   "name": "@masterborn/eslint-config-backend-typescript",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "MasterBorn ESLint backend typescript configuration",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "private": false,
   "dependencies": {
-    "@masterborn/eslint-config-backend": "^1.0.0"
+    "@masterborn/eslint-config-backend": "*"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=4.8.1",
