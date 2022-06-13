@@ -1,6 +1,9 @@
 module.exports = {
   extends: "@masterborn/eslint-config-common1",
   parser: "@babel/eslint-parser",
+  parserOptions: {
+    requireConfigFile: false,
+  },
   plugins: ["import"],
   rules: {},
   env: {

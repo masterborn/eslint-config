@@ -6,7 +6,6 @@ module.exports = {
     "plugin:jest/recommended",
     "prettier",
   ],
-
   parser: "@babel/eslint-parser",
   parserOptions: {
     requireConfigFile: false,
