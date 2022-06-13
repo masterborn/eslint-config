@@ -16,14 +16,8 @@ jobs:
           registry-url: "https://registry.npmjs.org"
           scope: "@masterborn"
       - run: npm install
-      - run: npm publish --workspaces
+      - run: npm run semantic-release --access=public --workspaces
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          registry-url: https://npm.pkg.github.com/
-          scope: "@masterborn"
-      - run: npm publish --workspaces
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
