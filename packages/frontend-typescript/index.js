@@ -1,6 +1,10 @@
 module.exports = {
   root: true,
-  extends: ["@masterborn/eslint-config-frontend", "airbnb-typescript", "prettier"],
+  extends: [
+    "@masterborn/eslint-config-frontend",
+    "airbnb-typescript",
+    "prettier",
+  ],
   plugins: ["@typescript-eslint"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -13,5 +17,10 @@ module.exports = {
         alwaysTryTypes: true,
       },
     },
+  },
+  rules: {
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
   },
 };
