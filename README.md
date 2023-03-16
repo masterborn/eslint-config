@@ -1,4 +1,6 @@
 # @masterborn/eslint-config
+## Deprecation Warning 
+This package wont be developed anymore
 
 ## Contents
 
